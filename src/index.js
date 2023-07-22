@@ -33,7 +33,7 @@ let search = () => {
                     count += 1;
                     ingredientList.push(`${measure} ${ingredient}`);
                 }
-                console.log(ingredientList);
+                // console.log(ingredientList);
                 result.innerHTML = `
                 <img src=${searchDrink.strDrinkThumb}>
                 <h1>${searchDrink.strDrink}</h2>
@@ -54,3 +54,24 @@ let search = () => {
 }
 window.addEventListener("load", search);
 searchBtn.addEventListener("click", search); 
+
+
+window.addEventListener("DOMContentLoaded", (e) => {
+    const toggle = document.getElementById('lightDark')
+    const body = document.querySelector('body');
+    const card = 
+
+    toggle.addEventListener('click', function(){ 
+        this.classList.toggle('bi-moon');
+        if(this.classList.toggle('bi-brightness-high-fill')){
+            body.style.background = 'white';
+            body.style.color = 'black';
+            body.style.transition = '2s';          
+        } else {
+            body.style.background = 'black';
+            body.style.color = 'white';
+            body.style.transition = '2s';
+            result.style.color = 'pink';
+        }
+    })
+})
