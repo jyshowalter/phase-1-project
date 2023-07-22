@@ -64,14 +64,15 @@ window.addEventListener("DOMContentLoaded", (e) => {
     toggle.addEventListener('click', function(){ 
         this.classList.toggle('bi-moon');
         if(this.classList.toggle('bi-brightness-high-fill')){
-            body.style.background = 'white';
+            body.style.background = 'rgb(210, 140, 176)';
             body.style.color = 'black';
-            body.style.transition = '2s';          
+            body.style.transition = '2s'; 
+            result.style.color = 'rgb(70, 0, 36)';       
         } else {
-            body.style.background = 'black';
+            body.style.background = 'rgb(70, 0, 36)';
             body.style.color = 'white';
             body.style.transition = '2s';
-            result.style.color = 'pink';
+            result.style.color = 'rgb(210, 140, 176)';
         }
     })
 })
