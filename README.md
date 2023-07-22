@@ -1,9 +1,7 @@
 # phase-1-project
 
-This application will allow users to see and filter cocktail recipes based on ingredients they already have on hand. 
+This application will allow users to filter by any drink recipe that is known to the International Bartender's Association. 
 
-As I user, I want to load a base page that shows random recipes. 
+Simply type in the cocktail name, click search, and see your results. 
 
-From there, I want to be able to click a dropdrown to select an ingredient I have on hand to show drink recipes I can make with that.
-
-The drink recipes should be shown in individual cards.
+If you prefer to see things in dark mode, you can click the toggle button on the top right to flip between light and dark mode. 
