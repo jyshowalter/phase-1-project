@@ -5,6 +5,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  background: rgb(210, 140, 176);
+  color: rgb(70, 0, 36);
+}
+
 .search-container {
   text-align: center;
   width: 75%;
